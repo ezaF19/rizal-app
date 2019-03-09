@@ -1,3 +1,4 @@
+{% load static %}
 <!-- Portfolio Modals -->
 
   <!-- Modal 1 -->
@@ -14,18 +15,19 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Noli Me Tangere</h2>
+                <p class="item-intro text-muted">
+                  Noli Me Tángere (Latin for Touch me not) is a novel written by José Rizal, one of the national heroes of the Philippines, during the colonization of the country by Spain to describe perceived inequities of the Spanish Catholic priests and the ruling government.
+                </p>
+                <img class="img-fluid d-block mx-auto" src="{% static 'img/works/1.jpg'%}" alt="">
+                <p>
+                  Originally written in Spanish, the book is more commonly published and read in the Philippines in either Tagalog or English. Together with its sequel, El Filibusterismo, the reading of Noli is obligatory for high school students throughout the country. The two novels are widely considered as the national epic of the Philippines and are performed in non-musical operas throughout the country.
+                </p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                  <li>Date: 1887</li>
+                  <li>Author: Jose Rizal</li>
+                  <li>Genre: Novel, Fiction, Satire</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
               </div>
             </div>
           </div>
@@ -48,18 +50,15 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">El Filibusterismo</h2>
+                <p class="item-intro text-muted">El filibusterismo, also known by its English alternative title The Reign of Greed, is the second novel written by Philippine national hero José Rizal. It is the sequel to Noli me tangere and, like the first book, was written in Spanish. It was first published in 1891 in Ghent.</p>
+                <img class="img-fluid d-block mx-auto" src="{% static 'img/works/2.jpg'%}" alt="">
+                <p>The novel centers on the Noli-El fili duology's main character Crisostomo Ibarra, now returning for vengeance as "Simoun". El fili's dark theme departs dramatically from the previous novel's hopeful and romantic atmosphere, signifying Ibarra's resort to solving his country's issues through violent means, after his previous attempt at reforming the country's system have made no effect and seemed impossible with the corrupt attitude of the Spaniards towards the Filipinos.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
+                  <li>Date: 1891</li>
+                  <li>Author: Jose Rizal</li>
+                  <li>Genre: Novel, Fiction, Satire</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
               </div>
             </div>
           </div>
@@ -82,18 +81,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Mi Ultimo Adios</h2>
+                <p class="item-intro text-muted">Mi Último Adiós (English; “My Last Farewell”) is a poem written by Philippine national hero, Dr. José Rizal, on the eve of his execution by firing squad on December 30, 1896. The piece was one of the last notes he wrote before his death. Another that he had written was found in his shoe, but because the text was illegible, its contents remain a mystery.</p>
+                <img class="img-fluid d-block mx-auto" src="{% static 'img/works/3.jpg'%}" alt="">
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
+                  <li>Date: 1897</li>
+                  <li>Author: Jose Rizal</li>
+                  <li>Genre: Poem</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
               </div>
             </div>
           </div>
@@ -104,30 +99,26 @@
 
   <!-- Modal 4 -->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Friars and Filipinos</h2>
+                  <p class="item-intro text-muted">An Abridged Translation of Dr. Jose Rizal's Tagalog Novel,'Noli Me Tangere.'</p>
+                  <img class="img-fluid d-block mx-auto" src="{% static 'img/works/4.jpg'%}" alt="">
+                  <ul class="list-inline">
+                    <li>Date: 1897</li>
+                    <li>Author: Jose Rizal</li>
+                    <li>Genre: Translation</li>
+                  </ul>
               </div>
             </div>
           </div>
@@ -150,18 +141,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">A La Juventud Filipina </h2>
+                <p class="item-intro text-muted">A la juventud filipina is a poem written in Spanish by Filipino writer and patriot José Rizal, first presented in 1879 in Manila, while he was studying at the University of Santo Tomas.</p>
+                <img class="img-fluid d-block mx-auto" src="{% static 'img/works/5.jpg'%}" alt="">
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
+                  <li>Date: 1879</li>
+                  <li>Author: Jose Rizal</li>
+                  <li>Genre: Poem</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
               </div>
             </div>
           </div>
@@ -184,18 +171,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">To the Filipino Youth</h2>
+                <p class="item-intro text-muted">Translated from "Sa Aking mga Kabata", is a poem about the love of one's native language written in Tagalog. It is widely attributed to the Filipino national hero José Rizal, who supposedly wrote it in 1869 at the age of eight.</p>
+                <img class="img-fluid d-block mx-auto" src="{% static 'img/works/6.jpg'%}" alt="">
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
+                  <li>Date: 1879</li>
+                  <li>Author: Jose Rizal</li>
+                  <li>Genre: Poem</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
               </div>
             </div>
           </div>
